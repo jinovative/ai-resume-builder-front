@@ -5,7 +5,7 @@ const BASE_URL = import.meta.env.VITE_API_BASE_URL;
 console.log("Base URL:", BASE_URL);
 
 const axiosClient = axios.create({
-    baseURL: `${BASE_URL ? BASE_URL + "/api/" : "https://ai-resume-builder-vkiz.onrender.com/api/"}`,
+    baseURL: `${BASE_URL ? BASE_URL + "/api/" : "https://deluxe-mooncake-0a6055.netlify.app/api/"}`,
     headers: {
         "Content-Type": "application/json",
         Authorization: `Bearer ${API_KEY}`,
